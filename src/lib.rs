@@ -44,7 +44,7 @@ pub mod prelude {
         machine::StateMachine,
         state::{AnyState, MachineState},
         state_machine_plugin,
-        trigger::{AlwaysTrigger, BoolTrigger, Done, DoneTrigger, Never, OptionTrigger, Trigger},
-        NotTrigger, StateMachinePlugin,
+        trigger::{NotTrigger, AlwaysTrigger, BoolTrigger, Done, DoneTrigger, Never, OptionTrigger, Trigger},
+        StateMachinePlugin,
     };
 }
